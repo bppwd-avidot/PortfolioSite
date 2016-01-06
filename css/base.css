@@ -1,0 +1,56 @@
+* {
+	color: white;
+	font-family: Arizonia;
+}
+
+body {
+	background-color: #363636;
+	background-image: url("../img/background.png");
+}
+
+@font-face {
+	font-family: Arizonia;
+	src: url("../fonts/arizonia.regular.ttf");
+}
+
+h1 {
+	font-size: 45pt;
+	padding-top: 10px;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	padding-top: 35px;
+}
+
+li {
+	font-size: 25pt;
+	list-style-type: none;
+}
+
+a {
+	color: white;
+}
+
+p a {
+	font-family: Arial; 
+	font-size: 15pt; 
+	text-decoration: underline;
+}
+
+a:hover {
+	color: red;
+}
+
+h2 {
+	font-size: 30pt;
+}
+
+p, label, input, textarea, button{
+	font-family: Arial;
+	font-size: 15pt;
+}
